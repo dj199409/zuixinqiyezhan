@@ -1,0 +1,373 @@
+@import url("base.css");
+*{
+    margin: 0;
+    padding: 0;
+    /*去掉链表标签修饰*/
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* 第一面开始 */
+
+/* 头部开始 */
+.head{
+    width: 100%;
+    height: 38px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.head1{
+    font-size: 38PX;
+    font-weight: 38px;
+    padding-left: 42px;
+}
+.headleft{
+    width: 589px;
+    height: 38px;
+    padding-right: 42px;
+}
+.headleft ul{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.headleft ul li{
+    width: 70px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.headleft ul li a{
+    text-decoration:none;
+    color: black;
+}
+.headleft ul li a:hover{
+    color: #6BC36B;
+}
+.headbuttim{
+    width: 100%;
+    height: 560px;
+    background: url(../img/picture11.jpg) no-repeat center;
+}
+.hard{
+    width: 100%;
+    height: 661px;
+    background: #fff;
+    position: relative;
+    
+}
+.hard1{
+    width: 100%;
+    height: 232px;
+    background: #fbfbfb;
+    position: relative;
+}
+.hard2{
+    width: 492px;
+    height: 55px;
+    position: absolute;
+    top: 67px;
+    margin-left: 467px;
+}
+.hard2 h1{
+   font-size: 33px;
+   color: #333333; 
+}
+.hard_2{
+    width: 750px;
+    height: 20px;
+    margin-left: 324px;
+    position: absolute;
+    top: 137px;
+}
+.hard_2 p{
+    font-size: 13px;
+    color: #666666;
+}
+.hardbutton{
+    width: 100%;
+    height: 429px;
+    background: #fff;
+}
+.hardrinht{
+    width: 429px;
+    height: 429px;
+    background: url(../img/picture22.jpg) no-repeat center;
+    margin-right: 226px;
+    float: right;
+}
+.hard_3{
+    width: 443px;
+    height: 147px;
+    background: #fff;
+    position: absolute;
+    left: 207px;
+    top: 363px;
+}
+.hard_31{
+    width: 141px;
+    height: 32px;
+}
+.hard_31 h2{
+    font-size: 23px;
+    font-weight: normal;
+}
+.hard_32{
+    width: 443px;
+    height: 82px;
+    font-size: 13px;
+    line-height: 29px;
+    margin-top: 12px;
+}
+/* 第三面 */
+.omg{
+    width: 100%;
+    height: 560px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.omgg{
+    width: 429px;
+    height: 429px;
+    background:url(../img/picture33.jpg) no-repeat center;
+    margin-top: 65px;
+    margin-left: 210px;
+}
+.omgright{
+    width: 443px;
+    height: 147px;
+    background: #fff;
+    position: absolute;
+    right: 200px;
+    top: 238px;
+}
+.omgright1{
+    width: 141px;
+    height: 32px;
+}
+.omgright1 h2{
+    font-size: 23px;
+    font-weight: normal;
+}
+.omgright_1{
+    width: 443px;
+    height: 82px;
+    font-size: 13px;
+    line-height: 29px;
+    margin-top: 12px;
+}
+/* 第四面 */
+.we{
+    width: 100%;
+    height: 560px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.wee{
+    width: 429px;
+    height: 429px;
+    background: url(../img/picture44.jpg) no-repeat center;
+    margin-right: 226px;
+    float: right;
+    margin-top: 65px;
+}
+.weright{
+    width: 443px;
+    height: 147px;
+    background: #fff;
+    position: absolute;
+    left: 207px;
+    top: 238px;
+}
+.weright1{
+    width: 141px;
+    height: 32px;
+}
+.weright1 h2{
+    font-size: 23px;
+    font-weight: normal;
+}
+.weright_1{
+    width: 443px;
+    height: 82px;
+    font-size: 13px;
+    line-height: 29px;
+    margin-top: 12px;
+}
+/* 第五面 */
+.omgg1{
+    width: 429px;
+    height: 429px;
+    background:url(../img/picture55.jpg) no-repeat center;
+    margin-top: 65px;
+    margin-left: 210px;
+}
+/* 第六面 */
+.wee1{
+    width: 429px;
+    height: 429px;
+    background: url(../img/picture66.jpg) no-repeat center;
+    margin-right: 226px;
+    float: right;
+    margin-top: 65px;
+}
+/* 第七面 */
+.omgg2{
+    width: 429px;
+    height: 429px;
+    background:url(../img/picture77.jpg) no-repeat center;
+    margin-top: 65px;
+    margin-left: 210px;
+}
+/* 第八面 */
+.wee2{
+    width: 429px;
+    height: 429px;
+    background: url(../img/picture88.jpg) no-repeat center;
+    margin-right: 226px;
+    float: right;
+    margin-top: 65px;
+}
+/* 第九面 */
+.omgg3{
+    width: 429px;
+    height: 429px;
+    background:url(../img/picture99.jpg) no-repeat center;
+    margin-top: 65px;
+    margin-left: 210px;
+}
+.blg{
+    width: 100%;
+    height: 365px;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+}
+.blg1{
+    width: 140px;
+    height: 30px;
+    color: #fff;
+    position: absolute;
+    top: 118px;
+    left: 112px;
+    font-size: 29px;
+}
+.blg1_1{
+    width: 140px;
+    height: 30px;
+    position: absolute;
+    top: 207px;
+    left: 112px;   
+}
+.blg1_1 ul li .wx{
+    color:white;
+    font-size: 25px;
+    float: left;
+}
+.blg2{
+    width: 70px;
+    height: 20px;
+    color: #fff;
+    position: absolute;
+    top: 124px;
+    left: 382px;
+}
+.blg_2{
+    width: 270px;
+    height: 66px;
+    color: #fff;
+    position: absolute;
+    top: 176px;
+    left: 382px;
+    font-size: 13px;
+}
+.blg3{
+    width: 70px;
+    height: 20px;
+    color: #fff;
+    position: absolute;
+    top: 124px;
+    left: 710px;
+}
+.blg_1{
+    width: 200px;
+    height: 20px;
+    color: #fff;
+    position: absolute;
+    top: 176px;
+    left: 710px;
+    font-size: 13px;
+}
+.blg_22{
+    width: 267px;
+    height: 20px;
+    color: #fff;
+    position: absolute;
+    top:196px;
+    left: 710px;
+    font-size: 13px;
+}
+.blg_23{
+    width: 267px;
+    height: 20px;
+    color: #fff;
+    position: absolute;
+    top: 216px;
+    left: 710px;
+    font-size: 13px;
+}
+.blg4{
+    width: 76px;
+    height: 76px;
+    background: url(../img/blg.jpg) no-repeat center;
+    position: absolute;
+    top: 131px;
+    right: 150px;
+}
+.blg5{
+    width: 90px;
+    height: 16px;
+    color: #fff;
+    font-size: 11px;
+    position: absolute;
+    left: 1118px;
+    top: 224px;
+}
+.blg6{
+    width: 1258px;
+    height: 20px;
+    background: #000;
+    margin-left:39px;
+    margin-top: 300px; 
+    border-bottom:  1px solid #2b2b2b;  
+}
+.blg7{
+    width: 300px;
+    height: 20px;
+    background: #000;
+    margin-left: 564px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #fff;
+}
+.returnn{
+    width: 34px;
+    height: 34px;
+    background: #5B5B5B;
+    position: fixed;
+    right: 22px;
+    bottom: 80px;
+    transition: all 2s 0s linear;
+}
+.returnn ul li{
+    text-align: center;
+}
+.returnn ul li i{
+    color:white;
+    font-size: 25px;
+    line-height: 34px;
+}
